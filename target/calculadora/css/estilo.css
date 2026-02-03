@@ -4,6 +4,7 @@ body{
   min-height:100vh;
   background:linear-gradient(135deg,#667eea,#764ba2) fixed no-repeat;
 }
+
 .contenedor{
   background:#fff;
   width:350px;
@@ -12,15 +13,17 @@ body{
   border-radius:10px;
   box-shadow:0 8px 20px rgba(0,0,0,.2);
 }
+
 h2{text-align:center;color:#333}
 label{display:block;margin-top:15px;font-weight:700;color:#555}
-input,select{
+select{
   width:100%;
   padding:8px;
   margin-top:5px;
   border:1px solid #ccc;
   border-radius:5px;
 }
+
 button{
   width:100%;
   margin-top:20px;
@@ -32,6 +35,7 @@ button{
   font-size:16px;
   cursor:pointer;
 }
+
 button:hover{background:#5563c1}
 .resultado,.error{margin-top:10px;text-align:center;min-height:24px}
 .resultado{padding:10px;background:#f2f2f2;border-radius:5px;font-size:18px}
@@ -48,4 +52,13 @@ button:hover{background:#5563c1}
   color:#333;
   background:#f7f7f7;
 }
+
 .btn-sec:hover{filter:brightness(.97)}
+
+.input_number{
+    width:45%;
+    padding:8px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}

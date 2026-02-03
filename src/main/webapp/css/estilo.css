@@ -16,7 +16,7 @@ body{
 
 h2{text-align:center;color:#333}
 label{display:block;margin-top:15px;font-weight:700;color:#555}
-input,select{
+select{
   width:100%;
   padding:8px;
   margin-top:5px;
@@ -54,3 +54,11 @@ button:hover{background:#5563c1}
 }
 
 .btn-sec:hover{filter:brightness(.97)}
+
+.input_number{
+    width:45%;
+    padding:8px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
