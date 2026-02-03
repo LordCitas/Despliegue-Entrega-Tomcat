@@ -1,4 +1,4 @@
-version: "3.8"
+
 
 services:
   tomcat:
@@ -12,4 +12,4 @@ services:
       - ./certs:/usr/local/tomcat/certs
       - ./server.xml:/usr/local/tomcat/conf/server.xml
       - ./tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
-      - ./target/calculadora.war:/usr/local/tomcat/webapps/calculadora.war
+      - ../../target/calculadora.war:/usr/local/tomcat/webapps/calculadora.war
