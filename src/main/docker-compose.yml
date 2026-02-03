@@ -11,4 +11,5 @@ services:
     volumes:
       - ./certs:/usr/local/tomcat/certs
       - ./server.xml:/usr/local/tomcat/conf/server.xml
+      - ./tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
       - ./target/calculadora.war:/usr/local/tomcat/webapps/calculadora.war
