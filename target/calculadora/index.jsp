@@ -31,10 +31,10 @@
   <!--Formulario principal de la calculadora.-->
   <form id="formCalc" autocomplete="off">
     <label>Número 1</label>
-    <input type="number" name="num1" step="any" required>
+    <input class="input_number" type="number" name="num1" step="any" required>
 
     <label>Número 2</label>
-    <input type="number" name="num2" step="any" required>
+    <input class="input_number" type="number" name="num2" step="any" required>
 
     <label>Operación</label>
     <select name="operacion" required>
