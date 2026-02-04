@@ -33,8 +33,8 @@
     <div class="nota">
       <p><b>Usuarios de prueba:</b></p>
       <ul>
-        <li><b>basic_user</b> / 123</li>
-        <li><b>full_user</b> / 321</li>
+        <li><b>Wheatley</b> / 123</li>
+        <li><b>GlaDOS</b> / 321</li>
       </ul>
     </div>
   </div>

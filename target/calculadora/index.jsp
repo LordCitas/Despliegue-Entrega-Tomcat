@@ -22,7 +22,7 @@
 <div class="contenedor">
   <!-- Cabecera con el título y el botón de cerrar sesión -->
   <div class="cabecera">
-    <h2>Calculadora JSP</h2>  
+    <h2>GlaDos Calculadora</h2>  
     <!--Formulario para cerrar sesión.Se envía por POST a logout.jsp-->
     <form method="post" action="<%=request.getContextPath()%>/logout.jsp">
       <button type="submit">Cerrar sesión</button>
@@ -42,6 +42,9 @@
       <!--Solo mostramos la opción "resta" si el usuario tiene el rol calc_full-->
       <% if (full) { %>
         <option value="resta">Resta</option>
+        <option value="multiplicacion">Multiplicación</option>
+        <option value="division">División</option>
+        <option value="potencia">Potencia</option>
       <% } %>
     </select>
 

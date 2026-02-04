@@ -16,7 +16,7 @@
 </head>
 <body>
   <div class="contenedor">
-    <h2>Iniciar sesión</h2>
+    <h2>GlaDos Login</h2>
 
     <form method="post" action="<%=request.getContextPath()%>/j_security_check" autocomplete="off">
       <label>Usuario</label>
@@ -33,8 +33,8 @@
     <div class="nota">
       <p><b>Usuarios de prueba:</b></p>
       <ul>
-        <li><b>basic_user</b> / 123</li>
-        <li><b>full_user</b> / 321</li>
+        <li><b>Wheatley</b> / 123</li>
+        <li><b>GlaDOS</b> / 321</li>
       </ul>
     </div>
   </div>

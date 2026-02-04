@@ -38,7 +38,7 @@ button{
   font-size:16px;
   cursor:pointer;
 }
-button:hover{background:#ffac13;color: yellow}
+button:hover{background:#ffac13;color: #ffee00}
 .resultado,.error{margin-top:10px;text-align:center;min-height:24px}
 .resultado{padding:10px;background:#f2f2f2;border-radius:5px;font-size:18px}
 .error{color:red}
