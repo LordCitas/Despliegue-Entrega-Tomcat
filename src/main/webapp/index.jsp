@@ -22,7 +22,7 @@
 <div class="contenedor">
   <!-- Cabecera con el título y el botón de cerrar sesión -->
   <div class="cabecera">
-    <h2>Calculadora JSP</h2>  
+    <h2>GlaDos Calculadora</h2>  
     <!--Formulario para cerrar sesión.Se envía por POST a logout.jsp-->
     <form method="post" action="<%=request.getContextPath()%>/logout.jsp">
       <button type="submit">Cerrar sesión</button>
@@ -31,17 +31,19 @@
   <!--Formulario principal de la calculadora.-->
   <form id="formCalc" autocomplete="off">
     <label>Número 1</label>
-    <input class="input-number" type="number" name="num1" step="any" required>
+    <input type="number" name="num1" step="any" required>
 
     <label>Número 2</label>
-    <input class="input-number" type="number" name="num2" step="any" required>
+    <input type="number" name="num2" step="any" required>
 
     <label>Operación</label>
     <select name="operacion" required>
-      <option value="sumas">Suma</option>
+      <option value="suma">Suma</option>
       <!--Solo mostramos la opción "resta" si el usuario tiene el rol calc_full-->
       <% if (full) { %>
         <option value="resta">Resta</option>
+        <option value="multiplicacion">Multiplicación</option>
+        <option value="division">División</option>
       <% } %>
     </select>
 
