@@ -94,6 +94,7 @@ public class CalculadoraServlet extends HttpServlet {
                 }
                 r = a / b; 
                 break;
+            case "potencia": r = Math.pow(a, b); break;
             default:
                 out.print("{\"ok\":false,\"message\":\"Operación no válida.\"}");
                 return;

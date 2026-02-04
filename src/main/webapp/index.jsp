@@ -44,6 +44,7 @@
         <option value="resta">Resta</option>
         <option value="multiplicacion">Multiplicación</option>
         <option value="division">División</option>
+        <option value="potencia">Potencia</option>
       <% } %>
     </select>
 
