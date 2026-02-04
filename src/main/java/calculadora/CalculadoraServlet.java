@@ -86,6 +86,14 @@ public class CalculadoraServlet extends HttpServlet {
         switch (op) {
             case "suma": r = a + b; break;
             case "resta": r = a - b; break;
+            case "multiplicacion": r = a * b; break;
+            case "division": 
+                if (b == 0) {
+                    out.print("{\"ok\":false,\"message\":\"Error: División por cero.\"}");
+                    return;
+                }
+                r = a / b; 
+                break;
             default:
                 out.print("{\"ok\":false,\"message\":\"Operación no válida.\"}");
                 return;
